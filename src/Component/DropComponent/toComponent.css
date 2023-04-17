@@ -1,0 +1,110 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid rgb(239, 236, 236);
+    padding: 8px;
+  }
+  
+  th {
+    text-align: left;
+    background-color: #393939;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #1a1a1a;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .form-inline {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .form-inline label {
+    margin-right: 10px;
+  }
+  
+  .form-inline input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .form-inline button {
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    cursor: pointer;
+  }
+  
+  .form-inline button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown select {
+    background-color: transparent;
+    color: #333;
+    font-size: 16px;
+    padding: 6px 20px 6px 10px;
+    border: none;
+    border-radius: 0;
+    height: 34px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+  }
+  
+  .dropdown select:focus {
+    outline: none;
+  }
+  
+  .dropdown:after {
+    content: '\f078';
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 6px 7px;
+    background-color: #ddd;
+    border-radius: 0 4px 4px 0;
+    pointer-events: none;
+  }
+  
+  .dropdown:hover:after {
+    background-color: #ccc;
+  }
+  
+  .edit-form input[type="text"] {
+    padding: 6px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  .edit-form button {
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .edit-form button:hover {
+    background-color: #202120;
+  }
+  
